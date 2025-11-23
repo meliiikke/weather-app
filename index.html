@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAVA DURUMU</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAABPklEQVR4AeTUXTLFQBAF4GElrAQrwUqwEqwEK8FKON9UkkoiCZlbHpRbc9Iz092n/6bucfnF3/8kv09HP0ZwPsl5WC1tQfDUMZxGHgVkRJkE2EuOGMFzmK6Dt8Aind1fuoDvyM9jJEvlk+DuPfdL6y6XV4EkyhY5I1lyUPpFnJRPyk6gSpL78ZK9BFbJKW/igYxxtsNyFkArBBkU3UZAukVySlkh6OwXhR6rji3YSwoksEr+ELoaPXJrqUzbQBXaeNs7LPX8LMqfEMesLlmCSiVVL33m5H15j5QNUIH2aO2kLQYoY6WSDdzVRRVfyEU0pGpxwKcS85+3ZVBQNoD/4mtRjok3cFYXxKuvpR+Goer/HiB9TQgPAU+2ZTJQQzRMSv8de/ASNr6bTzE2RXsY7YXkyvg3H+hYd/D+75J/AgAA//+ROWBKAAAABklEQVQDAMF0Uy8RLBFPAAAAAElFTkSuQmCC"
+      type="image/png"
+    />
+
+    <link
+      href="https://cdn.boxicons.com/3.0.4/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class="bxr bx-arrow-left-stroke"></i> Hava Durumu</header>
+      <section class="input-part">
+        <p class="info-text"></p>
+        <input type="text" placeholder="Şehir" spellcheck="false" required />
+        <div class="seperator"></div>
+        <button>Konumu Belirle</button>
+      </section>
+      <!-- wEATHER pART -->
+      <section class="weather-part">
+        <img src="#" alt="Weather Icon" />
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_ _</div>
+        <div class="location">
+          <i class="bxr bx-location"></i>
+          <span>_</span>
+        </div>
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class="bx bx-thermometer"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="bxr bxs-water-drop-half"></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
